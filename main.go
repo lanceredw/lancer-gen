@@ -331,7 +331,7 @@ func (service *%sService) Update(req *request.%sUpdateRequest) (ret *response.%s
 }
 
 func (service *%sService) Delete(req *request.%sDeleteRequest) (ret *response.%sDeleteResponse, err error) {
-	ret = new(response.%sCreateResponse)
+	ret = new(response.%sDeleteResponse)
 
 	return
 }
